@@ -1,7 +1,6 @@
 package com.qnbefinans.customerapp.config;
 
 import com.qnbefinans.customerapp.customer.CustomerRepository;
-import com.qnbefinans.customerapp.customer.CustomerService;
 import com.qnbefinans.customerapp.customer.model.Customer;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -10,7 +9,6 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 @Service
 public class JwtUserDetailsService implements UserDetailsService {

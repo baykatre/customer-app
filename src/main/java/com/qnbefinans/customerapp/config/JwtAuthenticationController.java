@@ -3,7 +3,6 @@ package com.qnbefinans.customerapp.config;
 
 import com.qnbefinans.customerapp.customer.model.CustomerDto;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
