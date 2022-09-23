@@ -1,0 +1,3 @@
+--INSERT INTO customer (id, name) VALUES (1, 'Anıl');
+--INSERT INTO customer (id, name) VALUES (2, 'Ahmet');
+--INSERT INTO customer (id, name) VALUES (3, 'Çağdaş');
