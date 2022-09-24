@@ -25,4 +25,5 @@ docker compose up -d
 ## Thanks
 
 [Spring Boot Security + JWT Tutorial](https://www.javainuse.com/spring/boot-jwt) by [javainuse](https://www.javainuse.com)
+
 [Using OpenAPI 3.0](https://www.baeldung.com/spring-rest-openapi-documentation) by [baeldung](https://baeldung.com)
