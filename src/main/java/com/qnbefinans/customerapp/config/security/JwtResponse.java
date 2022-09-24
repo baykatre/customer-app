@@ -1,4 +1,4 @@
-package com.qnbefinans.customerapp.config;
+package com.qnbefinans.customerapp.config.security;
 
 import lombok.Getter;
 

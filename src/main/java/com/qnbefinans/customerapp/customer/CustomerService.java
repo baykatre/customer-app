@@ -1,7 +1,7 @@
 package com.qnbefinans.customerapp.customer;
 
-import com.qnbefinans.customerapp.config.JwtAuthenticationService;
-import com.qnbefinans.customerapp.config.JwtResponse;
+import com.qnbefinans.customerapp.config.security.JwtAuthenticationService;
+import com.qnbefinans.customerapp.config.security.JwtResponse;
 import com.qnbefinans.customerapp.customer.model.Customer;
 import com.qnbefinans.customerapp.customer.model.CustomerDto;
 import com.qnbefinans.customerapp.customer.model.CustomerMapper;

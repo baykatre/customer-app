@@ -1,4 +1,4 @@
-package com.qnbefinans.customerapp.config;
+package com.qnbefinans.customerapp.config.security;
 
 
 import org.springframework.context.annotation.Bean;
@@ -54,7 +54,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 // Add a filter to validate the tokens with every request
                 .addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class)
                 // dont authenticate this particular request
-                .authorizeRequests().antMatchers("/authenticate", "/save").permitAll().
+                .authorizeRequests().antMatchers("/authenticate", "/save", "/v3/api-docs/**",
+                        "/swagger-ui/**").permitAll().
                 // all other requests need to be authenticated
                         anyRequest().authenticated().and().
                 // make sure we use stateless session; session won't be used to

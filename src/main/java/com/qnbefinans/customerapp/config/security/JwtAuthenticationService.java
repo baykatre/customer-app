@@ -1,4 +1,4 @@
-package com.qnbefinans.customerapp.config;
+package com.qnbefinans.customerapp.config.security;
 
 import com.qnbefinans.customerapp.customer.model.CustomerDto;
 import org.springframework.security.authentication.AuthenticationManager;

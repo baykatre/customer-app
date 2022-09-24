@@ -1,4 +1,4 @@
-package com.qnbefinans.customerapp.config;
+package com.qnbefinans.customerapp.config.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

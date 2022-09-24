@@ -1,6 +1,6 @@
 package com.qnbefinans.customerapp.customer;
 
-import com.qnbefinans.customerapp.config.JwtResponse;
+import com.qnbefinans.customerapp.config.security.JwtResponse;
 import com.qnbefinans.customerapp.customer.model.CustomerDto;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
