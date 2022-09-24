@@ -23,6 +23,7 @@ docker compose up -d
 ```
 http://localhost:8080/swagger-ui/index.html
 ```
+![main-screen](https://raw.githubusercontent.com/baykatre/customer-app/main/photos/swagger.png "Main")
 
 ## Authors
 
